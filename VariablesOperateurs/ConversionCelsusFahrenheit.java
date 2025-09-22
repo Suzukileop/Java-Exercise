@@ -25,7 +25,7 @@ public class ConversionCelsusFahrenheit {
             System.out.println(valeur + (" Fahrneheit equivaut a " + (((valeur * 10) - 320)/ 18)));
         }
 
-        
+        scanner.close();
     }
     
 }

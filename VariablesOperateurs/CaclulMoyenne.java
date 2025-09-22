@@ -23,5 +23,8 @@ public class CaclulMoyenne {
         Moyenne = Somme / 3;
 
         System.out.println("Moyenne de trois note saisie : " + Moyenne );
+
+        scanner.close();
+
     }
 }

@@ -25,5 +25,8 @@ public class CalculatriceBasique {
         } else{
             System.out.println("Operation impossible");
         }
+
+        scanner.close();
+
     }
 }

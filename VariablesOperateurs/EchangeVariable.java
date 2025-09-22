@@ -5,7 +5,7 @@ public class EchangeVariable {
         // declaration et initialisation de deux variables 
         int a = 2;
         int b = 4;
-        int temp;
+        // int temp;
 
         System.out.println("Valeur initiale de a = " + a);
         System.out.println("Valeur initiale de b = " + b);
@@ -26,6 +26,8 @@ public class EchangeVariable {
 
         System.out.println("La nouvelle valeur de a est " + a);
         System.out.println("La nouvelle valeur de b est " + b);
+
+        
 
     }
     
