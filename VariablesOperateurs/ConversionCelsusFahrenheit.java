@@ -4,7 +4,7 @@ import java.util.Scanner;
 // Conversion Celsus vers Fahrenheit
 public class ConversionCelsusFahrenheit {
     public static void main(String[] args) {
-        // Creation d'objet scanner 
+        // Creation d'objet scanner     
         Scanner scanner = new Scanner(System.in);
 
         // Demander un nombre 
