@@ -52,5 +52,7 @@ public class MagicModulo {
 
     // carroul d'image : Affichage d'image en boucle 
 
-}
+    scanner.close();
+
+    }
 }
