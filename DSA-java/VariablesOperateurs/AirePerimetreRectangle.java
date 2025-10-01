@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 
 public class AirePerimetreRectangle {
     public static void main(String[] args) {

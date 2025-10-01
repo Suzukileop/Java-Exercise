@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 import java.util.Scanner;
 
 // Operateur bit a bit 

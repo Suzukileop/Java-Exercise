@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 
 public class EchangeVariable {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 
 // Valeur ne peut pas etre modifier une fois initialise en utilisant le mot-cle initial
 public class NotionConstante {

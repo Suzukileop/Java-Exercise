@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 
 // Conversion de valeur d'un type de donnees vers un autre type.
 public class CastingType {

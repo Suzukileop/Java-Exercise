@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 import java.util.Scanner;
 
 // Moyenne de 3 notes 

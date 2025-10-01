@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 import java.util.Scanner;;
 
 // Determination si un nombre est par et impair

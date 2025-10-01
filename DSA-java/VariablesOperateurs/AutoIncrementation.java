@@ -1,4 +1,4 @@
-package VariablesOperateurs;
+
 
 // comprehension pre-incrementation et post-incrementation
 public class AutoIncrementation {
