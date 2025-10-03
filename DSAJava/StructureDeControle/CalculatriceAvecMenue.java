@@ -30,5 +30,7 @@ public class CalculatriceAvecMenue {
                     }
             default -> System.out.println("Operateur non reconnue");
         }
+
+    scanner.close();
     }
 }
