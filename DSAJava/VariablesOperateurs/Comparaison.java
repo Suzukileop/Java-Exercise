@@ -16,7 +16,7 @@ public class Comparaison {
         System.out.println("\nint 65 != double 65.1 : " + (a != 5.1)); // true
 
         // chat : 
-                // 6. Comparaisons qui ne fonctionnent pas
+        // 6. Comparaisons qui ne fonctionnent pas
         boolean bool = true;
         // System.out.println(bool == 1); // Erreur de compilation
         // Java est un langage fortement type pas comme le C/C++ qui acceptent : false = 1 et true = 0
