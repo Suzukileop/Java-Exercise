@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog - Accueil</title>
+</head>
+<body>
+    <!-- En-tête du site -->
+    <header role="banner">
+        <h1>Mon Blog Personnel</h1>
+        <p>Partageons nos connaissances</p>
+    </header>
+
+    <!-- Navigation principale -->
+    <nav aria-label="Navigation principale">
+        <ul>
+            <li><a href="/" aria-current="page">Accueil</a></li>
+            <li><a href="/articles">Articles</a></li>
+            <li><a href="/a-propos">À propos</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main role="main">
+        <!-- Introduction -->
+        <section aria-labelledby="bienvenue">
+            <h2 id="bienvenue">Bienvenue sur mon blog</h2>
+            <p>Découvrez mes derniers articles sur le développement web.</p>
+        </section>
+
+        <!-- Liste des articles -->
+        <section aria-labelledby="derniers-articles">
+            <h2 id="derniers-articles">Derniers articles</h2>
+            
+            <!-- Article 1 -->
+            <article>
+                <header>
+                    <h3>Comprendre HTML sémantique</h3>
+                    <p>
+                        Publié le 
+                        <time datetime="2024-01-15">15 janvier 2024</time>
+                        par Jean Dupont
+                    </p>
+                </header>
+                
+                <p>HTML sémantique est essentiel pour l'accessibilité...</p>
+                
+                <footer>
+                    <p>Catégorie : <a href="/categorie/html">HTML</a></p>
+                </footer>
+            </article>
+
+            <!-- Article 2 -->
+            <article>
+                <header>
+                    <h3>Les bases du CSS moderne</h3>
+                    <p>
+                        Publié le 
+                        <time datetime="2024-01-10">10 janvier 2024</time>
+                        par Marie Martin
+                    </p>
+                </header>
+                
+                <p>Découvrez les nouvelles fonctionnalités de CSS...</p>
+                
+                <footer>
+                    <p>Catégorie : <a href="/categorie/css">CSS</a></p>
+                </footer>
+            </article>
+        </section>
+    </main>
+
+    <!-- Barre latérale -->
+    <aside aria-label="Informations complémentaires">
+        <section>
+            <h3>À propos de l'auteur</h3>
+            <p>Développeur web depuis 5 ans...</p>
+        </section>
+        
+        <section>
+            <h3>Catégories populaires</h3>
+            <nav aria-label="Navigation par catégories">
+                <ul>
+                    <li><a href="/categorie/html">HTML</a></li>
+                    <li><a href="/categorie/css">CSS</a></li>
+                    <li><a href="/categorie/javascript">JavaScript</a></li>
+                </ul>
+            </nav>
+        </section>
+    </aside>
+
+    <!-- Pied de page -->
+    <footer role="contentinfo">
+        <nav aria-label="Navigation du pied de page">
+            <ul>
+                <li><a href="/mentions-legales">Mentions légales</a></li>
+                <li><a href="/confidentialite">Politique de confidentialité</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Mon Blog. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

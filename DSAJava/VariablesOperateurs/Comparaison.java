@@ -17,11 +17,12 @@ public class Comparaison {
 
         // chat : 
         // 6. Comparaisons qui ne fonctionnent pas
-        boolean bool = true;
+        // boolean bool = true;
         // System.out.println(bool == 1); // Erreur de compilation
         // Java est un langage fortement type pas comme le C/C++ qui acceptent : false = 1 et true = 0
-        
-        String str = "65";
+                // String str = "65";
+
+        // String str = "65";
         // System.out.println(a == str); // Erreur de compilation
         // String est un objet donc le str est une reference plus precisement une adresse vers l'objet String 
     }

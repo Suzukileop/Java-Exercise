@@ -27,16 +27,70 @@
     <ul>
         <li>&lt</li>
         <li>&gt</li>
-        <li>$copy</li>
-        <li>$reg</li>
-        <li>$quot</li>
-        <li>$amp</li>
+        <li>&copy</li>
+        <li>&reg</li>
+        <li>&quot</li>
+        <li>&amp</li>
         <!-- Un espace insécable est un espace qui empêche le retour à la ligne automatique entre deux éléments. -->
-        <li>$nbsp</li> 
-        <li>$euro</li>
+        <li>&nbsp</li> 
+        <li>&euro</li>
     </ul>
 
+    <!-- la balise figure contient l'ensemble media + legende. -->
+    <figure>
+        <img src="./Image/image.jpg" alt="Diagramme expliquant le processus" width="300" height="200">
+        <figcaption>Figure 1 : Notre processus de développement</figcaption>
+    </figure>
 
+    <!-- audio et video -->
+     <audio controls autoplay muted playsline loop preload="metadata">
+        <source src="./media/mp3.mp3" type="audio/mp3">
+        Votre navigateur ne peut pas lire le fichier audio.
+     </audio>
 
+    <!-- liste  -->
+    <!-- liste ordonnee -->
+    <ol type="1" start="5">
+        <li>element 1</li>
+        <li>element 2</li>
+        <li>element 3</li>
+    </ol>
+
+    <!-- liste non ordonne -->
+    <ul>
+        <li>element 1</li>
+        <li>element 2</li>
+        <li>element 3</li>
+    </ul>
+
+    <!-- balise sementique  -->
+    <!-- Balises principales -->
+     <header>
+        <h1>Mon site web</h1>
+        <p>Slogan ou description</p>
+     </header>
+
+     <!-- Article : c'est un contenu autonome -->
+      <article>
+        <header>
+            <h1>Ceci est un contenue de cet premier article.</h1>
+            <p>Une balise article est un contenu autonome </p>
+        </header>
+
+        <footer>
+            <p>A l'interieur d'un article, on peut trouver de footer(pied de page)</p>
+        </footer>
+      </article>
+
+    <!-- main : balise qui designe le contenu principal de la page. -->
+     <main>
+        <p>La balise semtantique main designe le contenu principal de la page.</p>
+     </main>
+
+    <!-- nav : une bare de navigation  -->
+     <nav>
+        <p>Contnient une route vers les autres pages</p>
+        <p>ne doit pas contenir de titre , et pas pour la mise en page.</p>
+     </nav>
 </body>
 </html>
