@@ -12,5 +12,7 @@ public class Test {
         System.out.println("Avant arrondi: " + d1 + " == " + d2 + " ? " + (d1 == d2));
         System.out.println("Après arrondi: " + arrondi1 + " == " + arrondi2 + " ? " + (arrondi1 == arrondi2));
    
+        // String 
+  
     }    
 }
