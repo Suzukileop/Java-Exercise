@@ -92,5 +92,90 @@
         <p>Contnient une route vers les autres pages</p>
         <p>ne doit pas contenir de titre , et pas pour la mise en page.</p>
      </nav>
+
+    <!-- formulaire : Pour soumettre des informations ou effectuer de CRUD  -->
+    <!-- text simple -->
+    <label for="nom">Votre nom :</label>
+    <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+    <!-- password -->
+    <label for="password">Mot de passe</label>
+     <input type="password" name="password"  minlength="8" >
+    <!-- email -->
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required placeholder="exemple@gmail.com"> 
+
+    <!-- textarea : zone de texte -->
+    <label for="message">message : </label>
+    <textarea name="message" id="message" cols="40" rows="5" placeholder="Votre message ..."></textarea>
+
+    <!-- case a coucher  -->
+    <!-- checkbox : pour le choix multiple -->
+    <fieldset>
+        <legend>Centre d'interet : </legend>
+        <label>
+            <input type="checkbox" name="sport" id="sport" value="sport">
+        </label>
+
+        <label>
+            <input type="checkbox" name="lecture" id="lecture" value="lecture">
+        </label>
+    </fieldset>
+    <!-- radio : choix unique -->
+     <fieldset>
+        <legend>Votre sex :</legend>
+        <label>
+            <input type="radio" name="male" id="male" value="male">
+        </label>
+
+        <label>
+            <input type="checkbox" name="female" id="female" value="female">
+        </label>
+     </fieldset>
+
+    <!-- liste deroulante -->
+     <label for="pays">Votre pays</label>
+     <select name="pays" id="pays">
+        <option value="MADAGASCAR">Madagascar</option>
+        <option value="MEXIQUE">Mexique</option>
+        <option value="BELGIQUE">Belgique</option>
+     </select>
+
+    <!-- liste gorupee -->
+    <label for="ville">Ville :</label>
+    <select id="ville" name="ville">
+        <optgroup label="France">
+            <option value="paris">Paris</option>
+            <option value="lyon">Lyon</option>
+        </optgroup>
+        <optgroup label="Belgique">
+            <option value="bruxelles">Bruxelles</option>
+            <option value="liege">Liège</option>
+        </optgroup>
+    </select>
+
+    <!-- Type numerique  -->
+\     <!-- Nombre -->
+    <label for="age">Âge :</label>
+    <input type="number" id="age" name="age" min="0" max="120" step="1">
+
+    <!-- Fourchette -->
+    <label for="satisfaction">Satisfaction :</label>
+    <input type="range" id="satisfaction" name="satisfaction" min="1" max="5" value="3">
+
+    <!-- date & heure -->
+    <!-- Date -->
+    <label for="naissance">Date de naissance :</label>
+    <input type="date" id="naissance" name="naissance">
+
+    <!-- Heure -->
+    <label for="rendezvous">Heure du rendez-vous :</label>
+    <input type="time" id="rendezvous" name="rendezvous">
+
+    <!-- Date et heure -->
+    <label for="meeting">Date et heure :</label>
+    <input type="datetime-local" id="meeting" name="meeting">
+
+    <hr>
+
 </body>
 </html>
