@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .problemes {
+            margin: 30px;
+            padding: 20px;
+            background: #ecf0f1;
+        }
+        
+        .conteneur {
+            border: 3px solid #e74c3c;
+            margin: 20px 0;
+            background: white;
+        }
+        
+        /* PROBLÈME LARGEUR */
+        .probleme-largeur {
+            width: 800px;
+            background: #ff6b6b;
+            padding: 20px;
+        }
+        
+        .colonnes-largeur {
+            display: flex;
+        }
+        
+        .colonne {
+            width: 33.33%;
+            padding: 20px;
+            border: 2px solid #e74c3c;
+            background: #ffeaa7;
+            margin: 5px;
+        }
+        
+        /* PROBLÈME HAUTEUR */
+        .probleme-hauteur {
+            height: 200px;
+            background: #74b9ff;
+            padding: 20px;
+            overflow: hidden;
+        }
+        
+        .contenu-haut {
+            padding: 30px;
+            border: 2px solid #0984e3;
+            background: #dfe6e9;
+            margin-bottom: 10px;
+        }
+        
+        .info {
+            background: #2d3436;
+            color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="problemes">
+        <h2>📐 Pourquoi la Largeur est Plus Critique</h2>
+        
+        <!-- PROBLÈME LARGEUR -->
+        <div class="info">
+            <strong>🚨 PROBLÈME LARGEUR (CRITIQUE)</strong><br>
+            Les colonnes dépassent → Scroll horizontal
+        </div>
+        <div class="conteneur">
+            <div class="probleme-largeur">
+                Conteneur: 800px de large
+                <div class="colonnes-largeur">
+                    <div class="colonne">Colonne 1</div>
+                    <div class="colonne">Colonne 2</div>
+                    <div class="colonne">Colonne 3</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PROBLÈME HAUTEUR -->
+        <div class="info">
+            <strong>⚠️ PROBLÈME HAUTEUR (MOINS GRAVE)</strong><br>
+            Le contenu dépasse → Scroll vertical (normal)
+        </div>
+        <div class="conteneur">
+            <div class="probleme-hauteur">
+                Conteneur: 200px de haut
+                <div class="contenu-haut">Contenu haut</div>
+                <div class="contenu-haut">Contenu milieu</div>
+                <div class="contenu-haut">Contenu bas</div>
+            </div>
+        </div>
+        
+        <div style="background: #00b894; color: white; padding: 15px; margin-top: 20px; border-radius: 5px;">
+            <strong>💡 Conclusion :</strong><br>
+            On surveille plus la largeur car le scroll horizontal est une mauvaise expérience utilisateur !
+        </div>
+    </div>
+</body>
+</html>

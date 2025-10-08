@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unités CSS - Pratique Complète</title>
+    <link rel="stylesheet" href="unite.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎯 Guide Pratique des Unités CSS</h1>
+            <p class="sous-titre">Testez visuellement chaque unité et comprenez leurs différences</p>
+        </header>
+
+        <!-- SECTION 1: UNITÉS ABSOLUES -->
+        <section class="section absolues">
+            <h2>1. Unités Absolues 📏</h2>
+            <p class="description">Taille fixe - Ne change jamais</p>
+            
+            <div class="demo-groupe">
+                <div class="unite-demo px-demo">
+                    <h3>Pixels (px)</h3>
+                    <div class="visuel">200px × 100px</div>
+                    <code>width: 200px;<br>height: 100px;</code>
+                </div>
+                
+                <div class="unite-demo cm-demo">
+                    <h3>Centimètres (cm)</h3>
+                    <div class="visuel">8cm × 4cm</div>
+                    <code>width: 8cm;<br>height: 4cm;</code>
+                </div>
+                
+                <div class="unite-demo mm-demo">
+                    <h3>Millimètres (mm)</h3>
+                    <div class="visuel">60mm × 30mm</div>
+                    <code>width: 60mm;<br>height: 30mm;</code>
+                </div>
+                
+                <div class="unite-demo in-demo">
+                    <h3>Pouces (in)</h3>
+                    <div class="visuel">3in × 1.5in</div>
+                    <code>width: 3in;<br>height: 1.5in;</code>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: UNITÉS RELATIVES TYPO -->
+        <section class="section relatives-typo">
+            <h2>2. Unités Relatives Typographiques 🔤</h2>
+            
+            <div class="demo-groupe">
+                <div class="unite-demo em-demo">
+                    <h3>EM (em)</h3>
+                    <p class="explication">Relative à la taille de police du PARENT</p>
+                    <div class="visuel-container">
+                        <div class="parent">
+                            Parent (20px)
+                            <div class="enfant-em">Enfant (1.5em = 30px)</div>
+                        </div>
+                    </div>
+                    <code>font-size: 1.5em;</code>
+                </div>
+                
+                <div class="unite-demo rem-demo">
+                    <h3>REM (rem)</h3>
+                    <p class="explication">Relative à la taille de police RACINE (html)</p>
+                    <div class="visuel-container">
+                        <div class="parent">
+                            Parent (24px)
+                            <div class="enfant-rem">Enfant (1.5rem = 24px)</div>
+                        </div>
+                    </div>
+                    <code>font-size: 1.5rem;</code>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: VIEWPORT UNITS -->
+        <section class="section viewport">
+            <h2>3. Unités Viewport 🖥️</h2>
+            
+            <div class="demo-groupe viewport-groupe">
+                <div class="unite-demo vw-demo">
+                    <h3>VW (Viewport Width)</h3>
+                    <div class="visuel vw-visuel">50vw</div>
+                    <code>width: 50vw;<br>→ 50% de la largeur fenêtre</code>
+                </div>
+                
+                <div class="unite-demo vh-demo">
+                    <h3>VH (Viewport Height)</h3>
+                    <div class="visuel vh-visuel">20vh</div>
+                    <code>height: 20vh;<br>→ 20% de la hauteur fenêtre</code>
+                </div>
+                
+                <div class="unite-demo vmin-demo">
+                    <h3>VMIN</h3>
+                    <div class="visuel vmin-visuel">25vmin</div>
+                    <code>width: 25vmin;<br>→ 25% du PLUS
